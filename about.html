@@ -250,6 +250,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/mail-script.js"></script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
+    <script>
+    $(document).ready(function () {
+        $(".client_review_slider").owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            nav: false,
+            dots: true,
+            animateOut: 'fadeOut'
+        });
+    });
+</script>
 </body>
 
 </html>
